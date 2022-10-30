@@ -35,29 +35,30 @@ const Photos = () => {
           <div className='h-[1px] w-[85%] absolute bg-neutral-300 dark:bg-neutral-700 mt-36 duration-300'></div>
         </div>
         <div className='h-[80%] mt-14 flex justify-center items-center flex-col md:flex-row md:h-[55%]'>
-          <div className='flex rounded-lg shadow-xl bg-white w-[300px] h-[200px] m-5 md:mx-8 md:w-[350px] md:h-[250px]'>
+
+          <div className='flex rounded-lg shadow-xl bg-white dark:bg-neutral-700 w-[300px] h-[200px] m-5 md:mx-8 md:w-[350px] md:h-[250px] duration-300'>
             <img className='rounded-l-lg bg-cover w-[50%]' src={img1} alt=''/>
             <div className='flex flex-col justify-center items-center'>
-              <h5 class="text-gray-900 text-lg font-semibold mb-2 text-center">Joshua Obuwege</h5>
-              <p class="text-gray-700 text-base mb-4 text-center p-3 italic">
+              <h5 class="text-gray-900 dark:text-neutral-200 text-lg font-semibold mb-2 text-center">Joshua Obuwege</h5>
+              <p class="text-gray-700 dark:text-neutral-300 text-base mb-4 text-center p-3 italic">
                 "Free slapping in my house and also free foods."
               </p>
             </div>
           </div>
-          <div className='flex rounded-lg shadow-xl bg-white w-[300px] h-[200px] m-5 md:mx-8 md:w-[350px] md:h-[250px]'>
+          <div className='flex rounded-lg shadow-xl bg-white dark:bg-neutral-700 w-[300px] h-[200px] m-5 md:mx-8 md:w-[350px] md:h-[250px] duration-300'>
             <img className='rounded-l-lg bg-cover w-[50%]' src={img4} alt=''/>
             <div className='flex flex-col justify-center items-center'>
-              <h5 class="text-gray-900 text-lg font-semibold mb-2 text-center">Jhon Arol de Chavez</h5>
-              <p class="text-gray-700 text-base mb-4 text-center p-3 italic">
+              <h5 class="text-gray-900 dark:text-neutral-200 text-lg font-semibold mb-2 text-center">Jhon Arol de Chavez</h5>
+              <p class="text-gray-700 dark:text-neutral-300  text-base mb-4 text-center p-3 italic">
                 "Malaki na pototoy ko ngaun pede na magka girlfriend."
               </p>
             </div>
           </div>
-          <div className='flex rounded-lg shadow-xl bg-white w-[300px] h-[200px] m-5 mb-12 md:mb-5 md:mx-8 md:w-[350px] md:h-[250px]'>
+          <div className='flex rounded-lg shadow-xl bg-white dark:bg-neutral-700 w-[300px] h-[200px] m-5 mb-12 md:mb-5 md:mx-8 md:w-[350px] md:h-[250px] duration-300'>
             <img className='rounded-l-lg bg-cover w-[50%]' src={img3} alt=''/>
             <div className='flex flex-col justify-center items-center'>
-              <h5 class="text-gray-900 text-lg font-semibold mb-2 text-center">Akabom Ekuah</h5>
-              <p class="text-gray-700 text-base mb-4 text-center p-3 italic">
+              <h5 class="text-gray-900 dark:text-neutral-200 text-lg font-semibold mb-2 text-center">Akabom Ekuah</h5>
+              <p class="text-gray-700 dark:text-neutral-300  text-base mb-4 text-center p-3 italic">
                 "Let's play call of duty in my house and something will happen."
               </p>
             </div>
