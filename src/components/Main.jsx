@@ -32,7 +32,7 @@ const Main = () => {
           <img src={nig} alt=''/>
         </div>
         <div className='md:flex md:flex-col md:justify-center md:items-start md:h-[80%]'>
-          <h1 className='dark:text-neutral-200 md:ml-[8.3%] duration-300 md:text-5xl font-bold text-sky-900 text-3xl text-center mt-8'><Link className='cursor-default bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text'>Welcome</Link> to Nigga Site</h1>
+          <h1 className='dark:text-neutral-200 md:ml-[8.3%] duration-300 md:text-5xl font-bold text-sky-900 text-3xl text-center mt-8'><Link className='cursor-default bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text'>Welcome</Link> to Nigga Hub</h1>
           <p className='md:font-normal md:text-start md:ml-[7%] md:w-[30%] md:text-3xl mt-4 text-xl text-center p-5 text-gray-700 font-normal dark:text-neutral-300'>This website is featured with photos of sexy niggas. You can now browse for hot niggas that you like.</p>
         </div>
       </div>

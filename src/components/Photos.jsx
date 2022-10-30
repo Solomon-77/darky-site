@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react' 
 import {Link} from 'react-router-dom'
 import img1 from '../assets/1.jpg'
-import img2 from '../assets/2.jpg'
 import img3 from '../assets/3.jpeg'
+import img4 from '../assets/1.PNG'
 
 const Photos = () => {
 
@@ -45,11 +45,11 @@ const Photos = () => {
             </div>
           </div>
           <div className='flex rounded-lg shadow-xl bg-white w-[300px] h-[200px] m-5 md:mx-8 md:w-[350px] md:h-[250px]'>
-            <img className='rounded-l-lg bg-cover w-[50%]' src={img2} alt=''/>
+            <img className='rounded-l-lg bg-cover w-[50%]' src={img4} alt=''/>
             <div className='flex flex-col justify-center items-center'>
-              <h5 class="text-gray-900 text-lg font-semibold mb-2 text-center">Warrah Nigeria</h5>
+              <h5 class="text-gray-900 text-lg font-semibold mb-2 text-center">Jhon Arol de Chavez</h5>
               <p class="text-gray-700 text-base mb-4 text-center p-3 italic">
-                "I wanna get clocked in my hotel right now call me."
+                "Malaki na pototoy ko ngaun pede na magka girlfriend."
               </p>
             </div>
           </div>
